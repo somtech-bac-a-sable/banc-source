@@ -1,0 +1,8 @@
+{
+  "name": "@elyasbenyssad-somtech/banc-paquet",
+  "version": "0.0.0",
+  "description": "Paquet factice du banc d'essai M-005",
+  "main": "index.js",
+  "repository": { "type": "git", "url": "https://github.com/elyasbenyssad-somtech/banc-source.git" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com" }
+}

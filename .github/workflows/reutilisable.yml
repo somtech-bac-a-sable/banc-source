@@ -1,0 +1,8 @@
+name: reutilisable
+on:
+  workflow_call:
+jobs:
+  appel:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "workflow reutilisable appele depuis ${{ github.repository }}"
