@@ -1,10 +1,10 @@
-name: secrets
+name: longueurs
 on:
   workflow_dispatch:
 jobs:
   lire:
     runs-on: ubuntu-latest
-    environment: banc-env
+    environment: banc-protege
     steps:
       - name: Longueurs seulement, jamais les valeurs
         env:
